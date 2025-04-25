@@ -78,7 +78,7 @@ else
 fi
 
 # Deploy internet identity canister
-[ "${NETWORK}" == "local" ] && dfx deploy internet_identity --network "${NETWORK}"
+# [ "${NETWORK}" == "local" ] && dfx deploy internet_identity --network "${NETWORK}"
 
 # Deploy core canisters
 CORE_CANISTERS_SCRIPTS=(
